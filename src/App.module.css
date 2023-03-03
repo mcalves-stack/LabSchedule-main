@@ -1,0 +1,17 @@
+
+.box__app{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loader__app{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: var(--orange-bg-principal);
+    align-items: center;
+    justify-content: center;
+}

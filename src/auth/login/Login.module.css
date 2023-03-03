@@ -1,0 +1,189 @@
+.login__container {
+    background-image: url('../../Img/Login/fundoImg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login__container .box__logo img {
+    width: 482px;
+    height: 135px;
+    user-select: none;
+}
+.login__box {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    min-width: 266px;
+    height: 43px;
+    margin: 18px;
+    display: flex;
+    align-items: center;
+}
+.box__password{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input::placeholder,
+input {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+.box input,
+.box .box__password input {
+    padding: 5px;
+    font-weight: 400;
+    color: var(--gray-bg-principal);
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    border: 1px solid var(--gray-bg-principal);
+    border-radius: 10px;
+    outline: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+input:focus,
+.box__password input:focus{
+    border: 2px solid;
+    border-color: var(--blue-bg-principal);
+
+}
+.box input::placeholder,
+.box .box__password input {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--gray-bg-principal);
+}
+.box .icon__input {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    border: 1px solid;
+    font-size: 25px;
+    border-right: none;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: var(--orange-bg-principal);
+    background-color: var(--orange-bg-principal);
+    color: var(--white-bg-principal);
+}
+.container__check {
+    display: flex;
+    width: 266px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.box__check {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 24px;
+}
+.box__check input {
+    margin-right: 6px;
+}
+.box__check p{
+    color: #000;
+}
+.btn {
+    width: 180px;
+    min-height: 45px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: var(--white-bg-principal);
+    background-color: var(--blue-bg-principal);
+    margin-top: 23px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--blue-bg-principal-2);
+}
+.recover {
+    margin-top: 23px;
+    color: var(--gray-bg-principal);
+    text-decoration: underline;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18;
+}
+.__icon{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-bg-principal);
+}
+.icon__eye{
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 11px;
+    color: var(--white-bg-principal);
+    height: 100%;
+    background-color: var(--blue-bg-principal);
+    width: 20%;
+    cursor: pointer;
+}
+@media (max-width:428px) {
+    .login__container .box__logo img {
+        width: 375px;
+    }
+}
+@media (max-width:414px) {
+    .login__container .box__logo img {
+        width: 380px;
+    }
+}
+@media (max-width:390px) {
+    .login__container .box__logo img {
+        width: 350px;
+    }
+}
+@media (max-width:375px) {
+    .login__container .box__logo img {
+        width: 350px;
+    }
+}
+@media (max-width:360px) {
+    .login__container .box__logo img {
+        width: 345px;
+    }
+}
+@media (max-width:320px) {
+    .login__container .box__logo img {
+        width: 300px;
+    };
+}
+
+
+
+

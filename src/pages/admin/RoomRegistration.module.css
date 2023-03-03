@@ -1,0 +1,87 @@
+
+.containner{
+    width: 100%;
+    height: 100%;     
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 246px;
+    margin-top: 170px;
+    margin-bottom: 154px;
+    margin-right: 210px;
+}
+
+.colunaContainer {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.colunaContainer .colunas {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.write{
+   color: #6F6F6F;
+   font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title {
+    border-bottom: 1px solid var(--dingray-bg-principal);
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box_inputs{
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 15px;
+    font-size: 28px;
+    
+}
+
+.escrita{
+    color: var(--dingray-bg-principal);
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projectorOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projectorOptions div {
+    display: flex;
+    text-align: center;
+    gap: 12px;
+    font-size: 24px;
+}
+.Add_sofware{
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+}
+.buttons{
+    margin-top: 100px;
+}

@@ -1,0 +1,48 @@
+
+.message{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    animation: up 400ms linear normal;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-left: 3px solid var(--orange-bg-principal);
+    background-color: #f1e7e3;
+    color: var(--orange-bg-principal);
+}
+
+@keyframes up {
+    0%{
+        transform: translatey(-50px);
+        opacity: 0;
+    }100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+
+.danger{
+
+    margin-left: 12px;
+   
+}
+.message p {
+    color: var(--orange-bg-principal);
+}
+.error{
+    height: 100%;
+    width: 90%;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
